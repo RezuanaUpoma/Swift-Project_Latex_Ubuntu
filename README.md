@@ -6,7 +6,7 @@ Setting up OpenStack Swift and running i/o operations for our thesis findings
 
 This guide outlines the installation and configuration of OpenStack Swift with erasure coding, including commands for operating on Swift.
 
-## Table of Contents
+## Overview
 1. [Overview](#Overview)
 2. [Installation](#installation)
 3. [Erasure Coding Setup](#erasure-coding-setup)
