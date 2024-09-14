@@ -13,7 +13,7 @@ This guide outlines the installation and configuration of OpenStack Swift with e
 4. [Operating Swift](#operating-swift)
 5. [Commands Reference](#commands-reference)
 
-## Description 
+## Project Overview 
 
 In our thesis work, we aimed to evaluate the performance and fault tolerance of erasure coding in OpenStack Swift. To achieve this, we conducted a series of experiments to assess the system's ability to handle data under various conditions. Our objectives included uploading, downloading, and deleting data from Swift using an erasure coding policy to measure its efficiency and reliability.
 
