@@ -23,11 +23,12 @@ To proceed with our thesis, it was essential to analyze the performance of erasu
 
 The experimental setup involved:
 
-1. **Environment Setup:** We installed and configured OpenStack Swift on Ubuntu, including all required dependencies for erasure coding.
+1. **Environment Setup:** We installed and configured OpenStack Swift on Ubuntu both locally and remotely, including all required dependencies for erasure coding.
    
 2. **Erasure Coding Configuration:** We defined and applied an erasure coding policy in Swift, setting parameters such as the number of data and parity fragments and the object segment size.
 
-3. **Data Upload and Management:** We performed upload, download, and delete operations on two datasets: a self-made dataset and the COCO-17 dataset. These operations were executed to evaluate the system’s performance and fault tolerance under erasure coding.
+3. **Data Upload and Management:** We performed upload, download, and delete operations on two datasets: a self-made dataset(MCSD-100) and the COCO-17 dataset. These operations were executed to evaluate the system’s performance and fault tolerance under erasure coding.
+our self-made dataset link: https://data.mendeley.com/datasets/yt7dd5mx8p/1
 
 4. **Performance Evaluation:** We measured the I/O performance by recording the timing for each upload, download, and delete operation for every file. This allowed us to analyze the efficiency and reliability of the erasure coding policy.
 
